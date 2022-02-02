@@ -1,0 +1,28 @@
+/*Stylesheet for Private page*/
+
+/*Styles for staff details and work roster tables*/
+#staff, #roster
+{font-family:Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+#staff, #roster, th, td
+{border: solid;
+border-color: black;
+border-width: 1px;}
+
+#staff th {
+    text-align: left;
+    background-color: rgb(211, 243, 241);
+    padding: 10px;}
+
+#staff td {padding: 10px;}
+
+
+#roster th {
+    text-align: center;
+    background-color: rgb(209, 231, 147);
+    padding: 10px;}
+
+#roster td {text-align: center;}
